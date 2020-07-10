@@ -46,7 +46,7 @@ function createRock(x) {
 
   function moveRock() {
     if (checkCollision(rock)){
-      window.cancelAnimationFrame(myRq);
+     
       endGame();
     }
     else if (positionToInteger(rock.style.top) < GAME_HEIGHT + 20){
