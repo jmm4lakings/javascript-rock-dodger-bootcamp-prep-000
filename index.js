@@ -5,7 +5,7 @@ const GAME_WIDTH = 400;
 const LEFT_ARROW = 37;
 const RIGHT_ARROW = 39;
 const DODGER_SPEED = 4;
-constROCK_SPEED = 2;
+const ROCK_SPEED = 2;
 const ROCKS = [];
 const START = document.getElementById('start');
 
